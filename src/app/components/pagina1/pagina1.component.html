@@ -1,0 +1,25 @@
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Naruto</mat-card-title>
+    <mat-card-subtitle>Clan Uzumaki</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="imagenDelPadre ? imagenDelPadre : imagen"  alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+Naruto es una popular serie de manga y anime creada por Masashi
+Kishimoto. La historia sigue a Naruto Uzumaki, un joven ninja de la aldea
+ de Konoha, quien sueña con convertirse en Hokage, el líder de su aldea,
+ para ser reconocido por sus habilidades y su valor. La serie explora
+ temas de amistad.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button [routerLink]="['/pagina2']">Ir al componente 2</button>
+
+  </mat-card-actions>
+</mat-card>
+<mat-divider>
+
+</mat-divider>

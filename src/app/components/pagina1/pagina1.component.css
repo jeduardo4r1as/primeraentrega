@@ -1,0 +1,8 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://th.bing.com/th/id/R.68c12da13664d4c0f7529ca84210c010?rik=G1H3VIx9qgZcuA&pid=ImgRaw&r=0');
+  background-size: cover;
+}
